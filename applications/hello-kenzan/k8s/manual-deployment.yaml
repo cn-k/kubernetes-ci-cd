@@ -33,7 +33,7 @@ spec:
         tier: hello-kenzan
     spec:
       containers:
-      - image: 127.0.0.1:30400/hello-kenzan:latest
+      - image: registry.192.168.49.2.nip.io/hello-kenzan:latest
         name: hello-kenzan
         ports:
         - containerPort: 80
